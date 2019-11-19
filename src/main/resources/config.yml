@@ -1,0 +1,10 @@
+announcements:
+  join:
+    toggle: true
+    message: "&e{player_name} joined the game"
+  leave:
+    toggle: true
+    message: "&e{player_name} left the game"
+
+automatic-whitelist-for-ops: true
+use-vanilla-whitelist: false
