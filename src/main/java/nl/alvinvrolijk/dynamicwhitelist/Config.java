@@ -47,7 +47,9 @@ public class Config {
     public void reload() {
         // Try statement to prevent plugin failures
         try {
-            fileConfiguration = YamlConfiguration.loadConfiguration(file);
+            this.fileConfiguration = YamlConfiguration.loadConfiguration(file); // Reload config
+            DynamicWhitelist.instance.logger.info("config.yml has been reloaded!"); // Send to console
+            save(); // Save config
         } catch (Exception exception) {
             exception.printStackTrace();
         }
@@ -78,10 +80,8 @@ public class Config {
                 instance.logger.warning("Couldn't create config.yml!");
             }
         } else {
-            this.fileConfiguration = YamlConfiguration.loadConfiguration(file);
-
-            // Send to console
-            instance.logger.info("config.yml has been loaded!");
+            this.fileConfiguration = YamlConfiguration.loadConfiguration(file); // Load config
+            instance.logger.info("config.yml has been loaded!"); // Send to console
         }
     }
 }

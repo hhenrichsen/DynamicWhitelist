@@ -8,3 +8,5 @@ website: https://github.com/AlvinVrolijk
 permissions:
   dynamicwhitelist.whitelist:
     default: false
+  dynamicwhitelist.reload:
+    default: false
