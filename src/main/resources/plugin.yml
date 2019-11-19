@@ -1,0 +1,7 @@
+name: DynamicWhitelist
+version: ${project.version}
+main: nl.alvinvrolijk.dynamicwhitelist.DynamicWhitelist
+api-version: 1.13
+authors: [AlvinCraft]
+description: A dynamic whitelist plugin.
+website: https://github.com/AlvinVrolijk
