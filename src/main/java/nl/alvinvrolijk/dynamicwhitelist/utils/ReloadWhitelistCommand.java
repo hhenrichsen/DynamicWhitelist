@@ -1,5 +1,6 @@
-package nl.alvinvrolijk.dynamicwhitelist;
+package nl.alvinvrolijk.dynamicwhitelist.utils;
 
+import nl.alvinvrolijk.dynamicwhitelist.DynamicWhitelist;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.defaults.BukkitCommand;

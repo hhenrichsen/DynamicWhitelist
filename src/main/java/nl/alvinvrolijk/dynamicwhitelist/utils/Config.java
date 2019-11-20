@@ -1,5 +1,6 @@
-package nl.alvinvrolijk.dynamicwhitelist;
+package nl.alvinvrolijk.dynamicwhitelist.utils;
 
+import nl.alvinvrolijk.dynamicwhitelist.DynamicWhitelist;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 

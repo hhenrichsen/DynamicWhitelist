@@ -1,5 +1,6 @@
-package nl.alvinvrolijk.dynamicwhitelist;
+package nl.alvinvrolijk.dynamicwhitelist.utils;
 
+import nl.alvinvrolijk.dynamicwhitelist.DynamicWhitelist;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
