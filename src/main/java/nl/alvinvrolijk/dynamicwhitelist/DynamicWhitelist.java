@@ -1,5 +1,8 @@
 package nl.alvinvrolijk.dynamicwhitelist;
 
+import nl.alvinvrolijk.dynamicwhitelist.utils.Config;
+import nl.alvinvrolijk.dynamicwhitelist.utils.ReloadWhitelistCommand;
+import nl.alvinvrolijk.dynamicwhitelist.utils.WhitelistChecker;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Logger;
@@ -19,7 +22,7 @@ public final class DynamicWhitelist extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new WhitelistChecker(this), this); // Register listener
 
-        getServer().getCommandMap().register("seen", new ReloadWhitelistCommand("reloadwhitelist")); // Register reloadwhitelist command
+        getServer().getCommandMap().register("reloadwhitelist", new ReloadWhitelistCommand("reloadwhitelist")); // Register reloadwhitelist command
 
         logger.info("Plugin enabled"); // Inform console that the plugin is enabled
     }
