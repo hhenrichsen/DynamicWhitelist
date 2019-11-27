@@ -22,8 +22,6 @@ public final class DynamicWhitelist extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new WhitelistChecker(this), this); // Register listener
 
-        getServer().getCommandMap().register("reloadwhitelist", new ReloadWhitelistCommand("reloadwhitelist")); // Register reloadwhitelist command
-
         logger.info("Plugin enabled"); // Inform console that the plugin is enabled
     }
 
