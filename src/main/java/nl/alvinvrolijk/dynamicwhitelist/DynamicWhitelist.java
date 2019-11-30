@@ -1,7 +1,6 @@
 package nl.alvinvrolijk.dynamicwhitelist;
 
 import nl.alvinvrolijk.dynamicwhitelist.utils.Config;
-import nl.alvinvrolijk.dynamicwhitelist.utils.ReloadWhitelistCommand;
 import nl.alvinvrolijk.dynamicwhitelist.utils.WhitelistChecker;
 import org.bukkit.plugin.java.JavaPlugin;
 

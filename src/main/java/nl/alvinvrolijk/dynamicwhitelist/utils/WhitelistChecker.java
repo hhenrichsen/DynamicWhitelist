@@ -48,7 +48,7 @@ public class WhitelistChecker implements Listener {
         }
     }
 
-    public void sendJoinLeaveMessage(String type, String playerName) {
+    private void sendJoinLeaveMessage(String type, String playerName) {
         String message = null;
 
         switch (type) {
